@@ -1,0 +1,34 @@
+	body { background-color: #FFD3B6;
+		color: #694174;	
+		margin:0		}
+		
+		header{ background-color: #FFEEB5;
+		height: 80px;
+		display: flex; 
+		align-items: center;
+		text-align: center;
+}
+		
+		header h1 {
+		height: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		article{ text-align: center; 
+		}
+		
+		ul{ list-style-image: url('corgi.png');
+		 list-style-position: inside;}
+		 
+		footer { background-color: #FFEEB5;
+		height: 40px;
+		text-align: center;
+		text-decoration: none;}
+		
+		footer a {text-decoration: none;}
+		
+		#ranking{ text-align: center;
+
+
+		}
+		#ranking img { width: 800px; height: 600px;} 
