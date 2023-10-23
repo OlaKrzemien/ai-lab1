@@ -4,7 +4,12 @@
 	<meta charset="utf-8">
 	<title>Psy myśliwskie</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style1.css"/>
+	<link id="stylesheets" rel="stylesheet" type="text/css" href="style1.css"/>
+	<script>
+		function swapCss(file){
+			document.getElementById('stylesheets').setAttribute('href',file);
+		}
+	</script>
 </head>
 <body>
 	<header>
@@ -53,8 +58,8 @@
 			</dl>
 		</div>
 		<footer>
-		<p><h4><a href="lab1ai.html">Styl 1</a><br>
-		<a href="lab1ai2.html">Styl 2</a></h4>
+		<p><h4><a onclick="swapCss('style1.css')">Styl 1</a><br>
+		<a onclick="swapCss('style2.css')">Styl 2</a></h4>
 		</p></footer>
 				
 		
